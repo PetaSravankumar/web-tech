@@ -1,5 +1,7 @@
 table{
     border: rgb(7, 245, 7) ,double;
+    align-items: center;
+    padding-top:0px;
 }
 
 tr:nth-child(odd){
@@ -8,4 +10,9 @@ tr:nth-child(odd){
 th{
     background-color:green;
     color: rgb(159, 166, 157);
+}
+p{
+    text-align:justify;
+    padding-left: 150px;
+    padding-bottom:0px;
 }
