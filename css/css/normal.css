@@ -1,3 +1,6 @@
 table{
-    border: green solid;
+    border: rgb(40, 135, 40) solid;
+}
+tr:nth-child(2){
+    background-color: green;
 }
