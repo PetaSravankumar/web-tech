@@ -1,9 +1,11 @@
 table{
-    border: rgb(40, 135, 40) solid;
+    border: rgb(7, 245, 7) solid;
 }
-tr:nth-child(2){
-    background-color: green;
-}
-tr:nth-child(even){
+
+tr:nth-child(odd){
     background-color: gray;
+}
+th{
+    background-color:green;
+    color: white;
 }
