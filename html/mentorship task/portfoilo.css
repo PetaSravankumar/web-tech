@@ -1,0 +1,51 @@
+  *{
+            margin:0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height:75px;
+            background-color:#1B3C53;
+            color: #D2C1B6;
+            
+        }
+        .navbar img{
+            
+            height: 60px;
+        }
+        .right{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 20%;
+        }
+        .mainbody{
+            background-color:#456882;
+            color:#D2C1B6;
+            width:100%;
+        }
+        .about{
+            padding-left: 10px;
+        }
+        h3{
+            color:#282625;
+        }
+        b{
+            color:#1B3C53;
+        }
+        .projects{
+            padding:10px;
+            line-height:1.5;
+        }
+        .projects h4{
+            margin-top:9px;
+        }
+        .footer{
+            background-color:#234C6A;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+        }
