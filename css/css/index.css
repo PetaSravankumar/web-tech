@@ -50,3 +50,7 @@ button{
 .banner p{
     margin: 10px;
 }
+button:hover{
+    background-color: orange;
+    color: black;
+}
