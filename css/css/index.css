@@ -58,6 +58,8 @@ button:hover{
 .category img{
     height: 250px;
     width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
 }
 .categories{
     display: flex;
