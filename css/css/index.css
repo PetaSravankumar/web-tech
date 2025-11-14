@@ -54,3 +54,14 @@ button:hover{
     background-color: orange;
     color: black;
 }
+
+.category img{
+    height: 250px;
+    width: 250px;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
