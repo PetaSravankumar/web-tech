@@ -67,3 +67,34 @@ button:hover{
     align-items: center;
     margin-top: 30px;
 }
+h1{
+    margin: 10px;
+}
+.offers{
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.review{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px black;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
