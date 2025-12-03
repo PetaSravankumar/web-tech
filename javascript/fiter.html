@@ -18,7 +18,10 @@
             return x+10
         })
         console.log("map data ",mapdata);
-        
+        mapdata.forEach((a,b) => {
+            console.log(`${b} : ${a}`);
+            
+        });
         let total=mapdata.reduce((acc,val)=>{
             return acc+val
         },0)
