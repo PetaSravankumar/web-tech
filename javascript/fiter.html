@@ -19,6 +19,11 @@
         })
         console.log("map data ",mapdata);
         
+        let total=mapdata.reduce((acc,val)=>{
+            return acc+val
+        },0)
+        console.log("Total value ",total);
+        
     </script>
 </body>
 </html>
