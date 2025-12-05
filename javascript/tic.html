@@ -20,7 +20,16 @@
         
     }
     printBord()
-    
+    function game(player,row,col){
+        if(board[row][col]===""){
+            board[row][col]=player
+            printBord()
+        }
+        else{
+            alert("already placed")
+        }
+    }
+    game(prompt("enter the x or o"),prompt("enter row number"),prompt("enter the col number"))
     </script>
     
 </body>
