@@ -12,7 +12,7 @@
             <input type="text" placeholder="Enter the userName" required id="userName"> <br>
             <input type="text" placeholder="Enter Email required" id="email"><br>
             <input type="text" placeholder="Enter Phone Number" required id="phone"><br>
-            <input type="text" placeholder="Enter PassWord" required id="PassWord"> <br>
+            <input type="text" placeholder="Enter PassWord" required id="Password"> <br>
             <button>SignUp</button>
         </form>
     </center>
@@ -21,9 +21,9 @@
         form.addEventListener("submit",(e)=>{
             e.preventDefault()
             let name=document.getElementById("userName").value
-            let email=document.getElementById('emai').value
+            let email=document.getElementById('email').value
             let phone=document.getElementById("phone").value
-            let PassWord=document.getElementById(PassWord).value
+            let PassWord=document.getElementById("Password").value
             
             localStorage.setItem("username",name)
             localStorage.setItem("email",email)
