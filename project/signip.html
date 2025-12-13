@@ -17,7 +17,20 @@
         </form>
     </center>
     <script>
-        
+        let form=document.getElementById("handelData")
+        form.addEventListener("submit",(e)=>{
+            e.preventDefault()
+            let name=document.getElementById("userName").value
+            let email=document.getElementById('emai').value
+            let phone=document.getElementById("phone").value
+            let PassWord=document.getElementById(PassWord).value
+            
+            localStorage.setItem("username",name)
+            localStorage.setItem("email",email)
+            localStorage.setItem("phone",phone)
+            localStorage.setItem("Password",PassWord)
+            alert("Signup Sucess .............")
+        })
     </script>
 </body>
 </html>
