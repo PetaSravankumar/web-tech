@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Login Page</h1></center>
+    <center>
+        <form action="" id="handelData">
+            <input type="text" placeholder="Enter userName" required id="userName"> <br><br>
+            <input type="text" placeholder="Enter Password" required id="Password"> <br><br>
+            <button>Login</button>
+        </form>
+    </center>
+    <script>
+        let form=document.getElementById("handelData")
+        form.addEventListener("submit",(e)=>{
+            e.preventDefault()
+            let userName=document.getElementById("userName").value
+            let Password=document.getElementById("Password").value
+
+            let a=localStorage.getItem("username")
+            let b=localStorage.getItem("Password")
+            if (userName==a && Password==b){
+                alert("Login sucess")
+            }
+            else{
+                alert("Invalid cridentials")
+            }
+        })
+    </script>
+</body>
+</html>
