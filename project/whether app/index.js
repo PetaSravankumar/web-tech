@@ -2,7 +2,7 @@ let btn=document.getElementById("btn")
 let result=document.getElementById("reult")
 btn.addEventListener("click",()=>{
     let city=document.getElementById("input").value
-    let apiKey=""
+    let apiKey="bab11adb04e51cf78a2a79e2720b22a0"
     let api=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
     fetch(api)
     .then(x=>x.json())
