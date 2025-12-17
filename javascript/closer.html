@@ -8,8 +8,17 @@
 <body>
     <script>
         let person1={
-            
+            name:"Sravan",
+            greet:function(city,state){
+                console.log(`This is ${this.name} from ${city},${state}`);
+            }
         }
+        let person2={
+            name:"Kumar",
+            greet:person1.greet
+        }
+        person1.greet("Nellore","AP")
+        person2.greet("Veeramplaii")
     </script>
 </body>
 </html>
