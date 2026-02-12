@@ -14,16 +14,15 @@
     background-color: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
         }
-        .left{
-            width: 50%;
-
-        }
-        .right{
-            width: 50%;
-            background: linear-gradient(to right, #5c6bc0, #512da8);
-            color: brown;
-            border-radius: 150px 0 0 100px;
-        }
+        .left, .right {
+    width: 50%;
+    height: 100%; /* IMPORTANT: This makes the color fill the whole side */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
     </style>
 </head>
 <body>
